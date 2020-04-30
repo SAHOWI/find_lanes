@@ -1,0 +1,23 @@
+ pip3 install -U --user pip six numpy wheel setuptools mock future>=0.17.1
+  603  pip3 install -U --user keras_applications==1.0.6 --no-deps
+  604  pip3 install -U --user keras_preprocessing==1.0.5 --no-deps
+
+### Install Required Software
+#### Update
+Update your system first
+sudo apt-get update
+
+#### Install Linux Packages
+sudo apt-get install imagemagick
+sudo apt-get install python3-tk
+
+
+#### Update PIP3
+/usr/bin/python3 -m pip3 install --upgrade pip3
+
+#### Install Required Python Modules
+pip3 install matplotlib
+pip3 install opencv-python
+pip3 install opencv-python
+pip3 install Pillow
+pip3 install moviepy
